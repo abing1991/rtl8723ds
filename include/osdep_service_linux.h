@@ -58,7 +58,7 @@
 #include <linux/list.h>
 #include <linux/vmalloc.h>
 #include <linux/signal.h>
-#include <linux/sched/signal.h>
+//#include <linux/sched/signal.h>
 
 #if (LINUX_VERSION_CODE <= KERNEL_VERSION(2, 5, 41))
 	#include <linux/tqueue.h>
